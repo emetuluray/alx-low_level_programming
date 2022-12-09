@@ -7,8 +7,8 @@
 
 int main(void)
 {
-	char ch = 'A';
-	while (ch <= 'Z')
+	char ch = 'a';
+	while (ch <= 'z')
 	
 	{
 		putchar (ch);
