@@ -4,7 +4,7 @@
  * main - Entry
  *
  * Description: prints alphabets a to z without e and q, returns alphabets
- *
+ * int main: prints alpahets
  * return: Always 0 (success)
  */
 
