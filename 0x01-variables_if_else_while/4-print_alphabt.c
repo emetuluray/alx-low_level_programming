@@ -3,9 +3,9 @@
 /**
  * main - Entry
  *
- * Description: main prints alphabets a to z witout e and q
+ * Description: prints alphabets a to z without e and q, returns alphabets
  *
- * return: Always 0
+ * return: Always 0 (success)
  */
 
 int main(void) /*program to print alphabet except e an q*/
