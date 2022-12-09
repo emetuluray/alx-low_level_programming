@@ -5,10 +5,11 @@
  * Return: Always 0
  */
 
-int main ()
+int main(void)
 {
 	char ch = 'A';
 	while (ch <= 'Z')
+	
 	{
 		putchar (ch);
 		ch ++ ;
