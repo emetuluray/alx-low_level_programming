@@ -2,7 +2,9 @@
 
 /**
  * main - Entry
- * Descrition: main prints alphabets a to z witout e and q
+ *
+ * Description: main prints alphabets a to z witout e and q
+ *
  * return: Always 0
  */
 
