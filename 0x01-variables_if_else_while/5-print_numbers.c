@@ -8,10 +8,11 @@
 int main()
 {
 	int i
-		for (i = 0; i < 10; i++)
-		{
-			printf(i);
-		}
-	print("\n");
+	
+	for (i = 0; i < 10; i++)
+	{
+		printf(i);
+	}
+	printf("\n");
 	return (0);
 }
