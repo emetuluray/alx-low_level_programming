@@ -7,17 +7,16 @@
 
 int main(void)
 {
-	int num1 = '0';
-	int num2 = '0';
-
-	while (num1 <= '9')
+	int num1 
+	
+	for (num1 = 0; num1 < 10; num1++)
 	{
-		while (num2 <= '9')
+		putchar(num1);
+		if (num1 != 9)
 		{
-			putchar(num1 ,num2);
-			num2++;
+			putchar(' , ');
+			putchar();
 		}
-		num1++;
 	}
 	putchar('\n');
 	return (0);
