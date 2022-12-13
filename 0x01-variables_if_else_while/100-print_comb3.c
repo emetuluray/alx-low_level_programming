@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-/* main - Entry
+/** main - Entry
  * Return: Always 0
  */
 
-int main()
+int main(void)
 {
 	int a, b;
 
 	for (a = '0'; a <= '9'; a++)
 	{
-		for (b =a +1; b <= '9'; b++)
+		for (b = a + 1; b <= '9'; b++)
 		{
 			if (a != b)
 			{
