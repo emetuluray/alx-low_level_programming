@@ -5,7 +5,7 @@
  * @num: the unknown number
  */
 
-void print_to_98(int num)
+int print_to_98(int num)
 {
 	if (num >= 98)
 	{
