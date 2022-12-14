@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -5,7 +6,7 @@
  * @num: the unknown number
  */
 
-int print_to_98(int num)
+void print_to_98(int num)
 {
 	if (num >= 98)
 	{
