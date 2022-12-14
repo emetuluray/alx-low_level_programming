@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _abs - function that computes the absolute value
- * @n: parameter of sunction
+ * _abs - function that computes absolute value
+ * @n: parameter of function
  * Return: 0
  */
 
@@ -14,5 +14,5 @@ int _abs(int n)
 		return (n);
 	}
 	else
-		return(n * -1);
+		return (n * -1);
 }
