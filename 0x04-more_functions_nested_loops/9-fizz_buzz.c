@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main- prints the numbers from 1-100
+ * main - prints the numbers from 1-100
  * for multiples of three, Fizz is printed
  * for multiples of five Buzz is printed
  * for multiples of both three and five, FizzBuzz is printed
