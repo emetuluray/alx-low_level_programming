@@ -7,6 +7,7 @@
  * for multiples of both three and five, FizzBuzz is printed
  * Return: Always 0
  */
+
 int main(void)
 {
 	int num;
