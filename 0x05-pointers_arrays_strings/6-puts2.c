@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints string with new line
- * @str - string to be printed
+ * @str: string to be printed
  * Return: Always 0
  */
 
