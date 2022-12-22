@@ -5,7 +5,8 @@
  * @a: array
  * @n: integer
  * Return: void
- */
+*/
+
 void reverse_array(int *a, int n)
 {
 	int i, c;
@@ -14,6 +15,6 @@ void reverse_array(int *a, int n)
 	{
 		c = a[i];
 		a[i] = a[n - 1 -i];
-		a[n -1 - i] = c;
+		a[n - 1 - i] = c;
 	}
 }
