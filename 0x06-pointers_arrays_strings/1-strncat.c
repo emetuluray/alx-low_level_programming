@@ -8,15 +8,18 @@
  * Return: returns new concatenated string
  */
 
-char *strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
-	int index = 0, dest_length = 0;
+	int i, j;
 
-	while (dest[index++])
-		dest_length++;
-
-	for (index = 0; src[index] && index < n; index++)
-		dest[dest_length++] = src[index];
-
+	for (i = 0; dest[i] != '\0'; i++)
+	{
+		continue;
+	}
+	for (j = 0; src[j] != '\0' && j < n; j++)
+	{
+		dest[i + j] = src[j];
+	}
+	dest[i + j] = '\0';
 	return (dest);
 }
