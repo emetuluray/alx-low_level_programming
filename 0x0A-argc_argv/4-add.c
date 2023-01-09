@@ -7,7 +7,7 @@
  * main - adds positive numbers
  * @argc: n args
  * @argv: arr args
- * Return: 0
+ * Return: Always 0;
  */
 int main(int argc, char *argv[])
 {
@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
 	sum = 0;
 
-	if(argc < 3)
+	if (argc < 3)
 	{
 		printf("%d\n", 0);
 		return (0);
