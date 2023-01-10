@@ -5,7 +5,7 @@
 /**
  * count_word - helper function to count the number of words in a string
  * @s: string to evaluate
- * Returber of words
+ * Return: number of words
  */
 
 int count_word(char *s)
@@ -34,7 +34,7 @@ int count_word(char *s)
 * Return: pointer to an array of strings 
 * or NULL
 */
-char ** strtow(char *str)
+char **strtow(char *str)
 {
 	char **matrix, *tmp;
 	int i, k = 0, len = 0, words, c = 0, start, end;
